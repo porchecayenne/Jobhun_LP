@@ -37,7 +37,7 @@ header {
   grid-column: 1 / 3;
   grid-row: 1;
 
-  background: #3498db;
+  background: red;
 }
 
 aside {
