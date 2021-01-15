@@ -1,0 +1,32 @@
+{
+  "name": "Jobhun_LP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "gulp": "npx gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adachi-440/Jobhun_LP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adachi-440/Jobhun_LP/issues"
+  },
+  "homepage": "https://github.com/adachi-440/Jobhun_LP#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "gulp": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-stream": "^6.1.1"
+  }
+}
