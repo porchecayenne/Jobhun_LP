@@ -16,7 +16,7 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.css/,
+            test: /\.scss/,
             use: [
                 // CSSファイルを書き出すオプションを有効にする
                 {
@@ -27,9 +27,17 @@ module.exports = {
                     loader: "css-loader",
                     options: {
                         url: false,
-                        sourceMap: enabledSourceMap
+                        sourceMap: enabledSourceMap,
+                        importLoaders: 2
                     }
-                }
+                },
+                {
+                    loader: "sass-loader",
+                    options: {
+                        // ソースマップの利用有無
+                        sourceMap: enabledSourceMap
+                    },
+                },
             ],
         }]
     },
